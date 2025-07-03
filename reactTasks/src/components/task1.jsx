@@ -10,7 +10,7 @@ function Task1() {
         height: "100vh",
         width: "100%",
         backgroundColor: darkMode ? "black" : "white",
-        color: darkMode ? "white" : "black",
+        // color: darkMode ? "white" : "black",
         display: "flex",
         alignItems: "center",
         justifyContent: "center"
