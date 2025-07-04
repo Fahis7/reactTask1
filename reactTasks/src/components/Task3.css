@@ -1,0 +1,21 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100vh;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 90px;
+    gap: 20px;
+    padding: 30px;
+    background-color: #f2f2f2;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

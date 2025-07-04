@@ -1,0 +1,9 @@
+.navIcon{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 50px;
+    align-items: center;
+    background-color: black;
+    color: white;
+}

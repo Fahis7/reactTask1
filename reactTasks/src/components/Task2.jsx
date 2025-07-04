@@ -9,8 +9,13 @@ function Task2() {
             .then(data => setQuotes(data.quotes));
             
 }, []);
+const makeIt={
+    backgroundColor:"black",
+    height:"100vh",
+    color:"white",
+}
 return (
-    <div>
+    <div style={makeIt}>
         {quotes.slice(0,10).map((item)=>(
             <h2 key={item.id}>{item.quote}</h2>
         ))}
